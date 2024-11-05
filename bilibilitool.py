@@ -5,9 +5,9 @@ import re
 
 # 识别码等
 head = {
-    "User-Agent": "修改你的识别码"}
+    "User-Agent": "填入你的识别码"}
 
-response = requests.get(f"https://www.bilibili.com/video/修改你的BV号", headers=head)  # BV号
+response = requests.get(f"https://www.bilibili.com/video/填入你的BV号", headers=head)  # BV号
 # 变量定义
 select_fun = 0          # 方案选择参数
 count3 = 1
@@ -19,7 +19,7 @@ time_min = 0
 time_sec_sum = 0
 time_min_sum = 0
 start_num = 1           # 起始集数
-end_num = 48            # 结束集数
+end_num = 1            # 结束集数
 count_hour = 0
 count_min = 0
 
